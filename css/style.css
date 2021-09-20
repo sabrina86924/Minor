@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    background-color: #c8eee0;
+  }
+
+  h1{
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 1%;
+  }
+  h6{
+    text-align: center;
+  }
+  
+  /* Tabel */
+ td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+ tr:nth-child(even){background-color: #f2f2f2;}
+  
+ tr:hover {background-color: #ddd;}
+  
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1c8c63;
+    color: white;
+  }
+
+  /* Formulier */
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #1c8c63;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #1c8c63;
+  }
+  
+form, table{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+  #hidden{
+    visibility: hidden;
+  }
+
+
+  /* Kleur linkjes */
+  td a:link {
+    color: darkslategrey;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: #1c8c63
+  }
+  
+  #verzend{
+      border: none;
+  }
+
+  .header{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1c8c63;
+    color: white;
+  }
+
+  table{
+    border: 1px solid black;
+
+  }
+
+  #ja{
+    text-align: right;
+    color: darkslategrey;
+  }
+
+  #ja:visited {
+    color: black;
+  }
+  
+  #ja:hover {
+    color: #1c8c63
+  }
+
+  .anderePagina{
+    color: black;
+    background-color: #1c8c63;
+    padding: 14px 25px;
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    text-align: center;
+    border: 1px solid white;
+  
+  }
+  .anderePagina:hover {
+    background-color: white;
+    border: 1px solid #1c8c63;
+  }
+
+  .pasaan, .voegtoe{
+    width: 60%;
+  }
+
+  p{
+    text-align: center;
+  }

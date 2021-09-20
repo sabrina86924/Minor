@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toevoeg Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Nieuwe taak toevoegen!</h1><br>
+    <form class="voegtoe" name="agendaFormulier" method="post" action="toevoegVerwerk.php">
+        <table class="voegtoe">
+            <tr>
+                <td class="header">Onderwerp:</td>
+                <td><input type="text" name="Onderwerp" required></td>
+            </tr>
+            <tr>
+                <td class="header">Inhoud:</td>
+                <td><input type="text" name="Inhoud" required></td>
+            </tr>
+            <tr>
+                <td class="header">Begindatum:</td>
+                <td><input type="date" name="Begindatum" required></td>
+            </tr>
+            <tr>
+                <td class="header">Einddatum:</td>
+                <td><input type="date" name="Einddatum" required></td>
+            </tr>
+            <tr>
+                <td class="header">Prioriteit:</td>
+                <td> <input type="number" name="Prioriteit" min="1" max="5" value="3" required></td>
+            </tr>
+            <tr>
+                <td class="header">Status:</td>
+                <td>
+                    <select name="Status" required>
+                        <option value="n" selected>Niet begonnen</option>
+                        <option value="b">Bezig</option>
+                        <option value="a">Afgerond</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td id="hidden"> </td>
+                <td><input type="submit" name="verzend" value="Voeg toe aan agenda"></td>
+            </tr>
+        </table>
+    </form>
+    <br><a class='anderePagina' href='toonagenda.php'>OVERZICHT</a>
+</body>
+
+</html>
